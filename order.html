@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tapsyrys beru</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/order.css">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&family=Roboto&family=Bebas+Neue&family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="window">
+        <form class="main-box" action="php/order.php" method="post">
+            <div class="header">
+                <img src="img/header-img/logosa2.png" alt="">
+                <h1>Tapsyrys beru paragy</h1>
+            </div>
+            <div class="name-sur">
+                <div class="name-block">
+                    <h4>Name</h4>
+                    <input type="text" name="username" id="username">
+                </div>
+                <div class="surname-block">
+                    <h4>Surname</h4>
+                    <input type="text" name="surname" id="surname">
+                </div>
+            </div>
+            <div class="company-name">
+                <h4>Companyanyzdyn atauy</h4>
+                <input type="text" name="companyName" id="companyName">
+            </div>
+            <div class="choose">
+                <h4>Qyzmety tandap alu</h4>
+                <select name="subject" id="" id="selected">
+                    <option disabled selected>Tandau</option>
+                    <option value="1">Site jasau</option>
+                    <option value="2">Baqdarlama</option>
+                    <option value="3">Photo men Video</option>
+                </select>
+            </div>
+            <div class="number-login">
+                <div class="number-block">
+                    <h4>Number</h4>
+                    <input type="text" name="number">
+                </div>
+                <div class="login-block">
+                    <h4>Email</h4>
+                    <input type="text" name="emailorder">
+                </div>
+            </div>
+            <div class="tapsyrys-btn-back">
+                <a href="index.html"><button class="tapsyrys-btn" type="submit">
+                    <h5>BASTAU</h5>
+                </button></a>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
